@@ -24,8 +24,8 @@ class FeatureIO(object):
 
     """
 
-    def __init__(self, char_dict_path='data/char_dict/char_dict_mrz.json',
-                 ord_map_dict_path='data/char_dict/ord_map__mrz.json'):
+    def __init__(self, char_dict_path='data/char_dict/char_dict.json',
+                 ord_map_dict_path='data/char_dict/ord_map.json'):
         """__init__ constructor.
 
         Parameters
