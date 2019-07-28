@@ -9,15 +9,15 @@ The original implementation is available via this [link](https://github.com/vina
 
 ## Content:  
 
-- **cnn_model:** a folder containing the needed files to build the RCNN.  
+- **cnn_model:** a folder containing the needed files to build the CRNN.  
 - **data:** a folder containing the char dicts.
-- **data_provider:** a folder containing the needed file to prepare and provide the data to the RCNN.
-- **global_configuration:** a folder containing the needed configuration for the RCNN.  
+- **data_provider:** a folder containing the needed file to prepare and provide the data to the CRNN.
+- **global_configuration:** a folder containing the needed configuration for the CRNN.  
 - **local_utils:** a folder containing the utils needed to manipulate the data, char dicts and to write the logs.  
-- **tools:** a folder containing the needed files to generate the tfrecords, train the RCNN and to test it.  
+- **tools:** a folder containing the needed files to generate the tfrecords, train the CRNN and to test it.  
 - **generate_tfrecords.py:** the file to generate tfrecords.  
 - **test_ocr.py:** the file to test the OCR.
-- **train_ocr.py:** the file to train the RCNN.  
+- **train_ocr.py:** the file to train the CRNN.  
 - **requirements.txt:** a text file containing the needed packages to run the project.
 
 
@@ -35,7 +35,7 @@ The extracted data into `imgs/` should be organized as follows:
 Convert the whole dataset into tensorflow records by running `python generate_tfrecords.py`.  
 After finishing, 3 tfrecods will be saved to `tfrecs/`: one for training, one for validating and the other for testing the model.   
 
-**3. Train the RCNN:**  
+**3. Train the CRNN:**  
 To train the shadownet, run `python train_ocr.py`.   
 The trained model will be saved to a directory named `ML_OCR/model/shadownet/`.  
 
