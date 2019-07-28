@@ -18,7 +18,7 @@ The original implementation is available via this [link](https://github.com/vina
 - **generate_tfrecords.py:** the file to generate tfrecords.  
 - **test_ocr.py:** the file to test the OCR.
 - **train_ocr.py:** the file to train the CRNN.  
-- **requirements.txt:** a text file containing the needed packages to run the project.
+- **requirements.txt:** a text file containing the needed packages to run the project (if you have a GPU, change tensorflow to tensorflow-gpu in requirements.txt).  
 
 
 ## Train and test the CRNN:  
@@ -43,4 +43,3 @@ The trained model will be saved to a directory named `ML_OCR/model/shadownet/`.
 To test the model, images test should be in tfrecord form (After generating tfrecords, you should have `test.tfrecord` file in `tfrec/`).
 Add the model name to the path in `test_ocr.py`.    
 You can test the model by running `python test_ocr.py`.  
-
