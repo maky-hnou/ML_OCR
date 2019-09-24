@@ -15,9 +15,9 @@ The original implementation is available via this [link](https://github.com/vina
 - **global_configuration:** a folder containing the needed configuration for the CRNN.  
 - **local_utils:** a folder containing the utils needed to manipulate the data, char dicts and to write the logs.  
 - **tools:** a folder containing the needed files to generate the tfrecords, train the CRNN and to test it.  
-- **generate_tfrecords.py:** the file to generate tfrecords.  
-- **test_ocr.py:** the file to test the OCR.
-- **train_ocr.py:** the file to train the CRNN.  
+- **generate_tfrecords.py:** the file used to generate tfrecords.  
+- **test_ocr.py:** the file used to test the OCR.
+- **train_ocr.py:** the file used to train the CRNN.  
 - **requirements.txt:** a text file containing the needed packages to run the project (if you have a GPU, change tensorflow to tensorflow-gpu in requirements.txt).  
 
 
