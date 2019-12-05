@@ -1,6 +1,5 @@
 # ML_OCR
 ![Python version][python-version]
-![Latest version][latest-version]
 [![GitHub issues][issues-image]][issues-url]
 [![GitHub forks][fork-image]][fork-url]
 [![GitHub Stars][stars-image]][stars-url]
