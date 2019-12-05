@@ -1,5 +1,10 @@
 # ML_OCR
-
+![Python version][python-version]
+![Latest version][latest-version]
+[![GitHub issues][issues-image]][issues-url]
+[![GitHub forks][fork-image]][fork-url]
+[![GitHub Stars][stars-image]][stars-url]
+[![License][license-image]][license-url]
 
 ## About this repo:  
 This repository is a re-implementation of an OCR using Machine Learning.  
@@ -43,3 +48,13 @@ The trained model will be saved to a directory named `ML_OCR/model/shadownet/`.
 To test the model, images test should be in tfrecord form (After generating tfrecords, you should have `test.tfrecord` file in `tfrec/`).
 Add the model name to the path in `test_ocr.py`.    
 You can test the model by running `python test_ocr.py`.  
+
+[python-version]:https://img.shields.io/badge/python-3.6+-brightgreen.svg
+[issues-image]:https://img.shields.io/github/issues/maky-hnou/ML_OCR.svg
+[issues-url]:https://img.shields.io/github/issues/maky-hnou/ML_OCR
+[fork-image]:https://img.shields.io/github/forks/maky-hnou/ML_OCR.svg
+[fork-url]:https://img.shields.io/github/forks/maky-hnou/ML_OCR
+[stars-image]:https://img.shields.io/github/stars/maky-hnou/ML_OCR.svg
+[stars-url]:https://github.com/maky-hnou/ML_OCR/stargazers
+[license-image]:https://img.shields.io/github/license/maky-hnou/ML_OCR.svg
+[license-url]:https://github.com/maky-hnou/ML_OCR/blob/master/LICENSE
