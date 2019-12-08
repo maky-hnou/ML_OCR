@@ -22,7 +22,7 @@ The original implementation is available via this [link](https://github.com/vina
 - **generate_tfrecords.py:** the file used to generate tfrecords.  
 - **test_ocr.py:** the file used to test the OCR.
 - **train_ocr.py:** the file used to train the CRNN.  
-- **requirements.txt:** a text file containing the needed packages to run the project (if you have a GPU, change tensorflow to tensorflow-gpu in requirements.txt).  
+- **requirements.txt:** a text file containing the needed packages to run the project (if you want to use GPU instead of CPU, change tensorflow to tensorflow-gpu in requirements.txt).  
 
 
 ## Train and test the CRNN:  
