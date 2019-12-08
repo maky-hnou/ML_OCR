@@ -50,9 +50,9 @@ You can test the model by running `python test_ocr.py`.
 
 [python-version]:https://img.shields.io/badge/python-3.6+-brightgreen.svg
 [issues-image]:https://img.shields.io/github/issues/maky-hnou/ML_OCR.svg
-[issues-url]:https://img.shields.io/github/issues/maky-hnou/ML_OCR
+[issues-url]:https://github.com/maky-hnou/ML_OCR/issues
 [fork-image]:https://img.shields.io/github/forks/maky-hnou/ML_OCR.svg
-[fork-url]:https://img.shields.io/github/forks/maky-hnou/ML_OCR
+[fork-url]:https://github.com/maky-hnou/ML_OCR/network/members
 [stars-image]:https://img.shields.io/github/stars/maky-hnou/ML_OCR.svg
 [stars-url]:https://github.com/maky-hnou/ML_OCR/stargazers
 [license-image]:https://img.shields.io/github/license/maky-hnou/ML_OCR.svg
