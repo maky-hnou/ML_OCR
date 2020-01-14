@@ -1,4 +1,5 @@
-# ML_OCR
+# ML_OCR  
+
 ![Python version][python-version]
 [![GitHub issues][issues-image]][issues-url]
 [![GitHub forks][fork-image]][fork-url]
@@ -6,6 +7,7 @@
 [![License][license-image]][license-url]
 
 ## About this repo:  
+
 This repository is a re-implementation of an OCR using Machine Learning.  
 It has been developed on Ubuntu 18.04 using python 3.6 and TensorFlow 1.13.   
 The original implementation is available via this [link](https://github.com/vinayakkailas/Deeplearning-OCR).
